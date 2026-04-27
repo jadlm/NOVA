@@ -413,18 +413,10 @@ function updateQuantity(productId, newQty) {
   if (window.location.pathname.includes('cart.html')) renderCartPage();
 }
 
-// Thèmes et Dark mode
+// Thèmes simplifiés (clair/sombre)
 function initThemeSystem() {
-  // Charger le thème sauvegardé
-  const savedTheme = localStorage.getItem('nova_theme') || 'default';
   const darkMode = localStorage.getItem(STORAGE.darkMode) === 'true';
-  
-  // Appliquer le thème
-  document.documentElement.setAttribute('data-theme', savedTheme);
   if (darkMode) document.documentElement.classList.add('dark');
-  
-  // Créer le sélecteur de thèmes
-  createThemeSelector();
   
   // Gérer le dark mode toggle
   document.querySelectorAll('#darkModeToggle, #darkModeToggleShop').forEach(btn => {
@@ -433,60 +425,6 @@ function initThemeSystem() {
       localStorage.setItem(STORAGE.darkMode, document.documentElement.classList.contains('dark'));
     };
   });
-}
-
-function createThemeSelector() {
-  // Vérifier si le sélecteur existe déjà
-  if (document.querySelector('.theme-selector')) return;
-  
-  const selector = document.createElement('div');
-  selector.className = 'theme-selector';
-  selector.innerHTML = `
-    <div class="text-xs font-semibold mb-2 text-gray-700 dark:text-gray-300">Thèmes</div>
-    <div class="flex flex-col">
-      <button class="theme-btn theme-default ${localStorage.getItem('nova_theme') === 'default' ? 'active' : ''}" data-theme="default" title="NOVA"></button>
-      <button class="theme-btn theme-ocean ${localStorage.getItem('nova_theme') === 'ocean' ? 'active' : ''}" data-theme="ocean" title="Océan"></button>
-      <button class="theme-btn theme-sunset ${localStorage.getItem('nova_theme') === 'sunset' ? 'active' : ''}" data-theme="sunset" title="Coucher de soleil"></button>
-      <button class="theme-btn theme-forest ${localStorage.getItem('nova_theme') === 'forest' ? 'active' : ''}" data-theme="forest" title="Forêt"></button>
-      <button class="theme-btn theme-royal ${localStorage.getItem('nova_theme') === 'royal' ? 'active' : ''}" data-theme="royal" title="Royal"></button>
-    </div>
-  `;
-  
-  document.body.appendChild(selector);
-  
-  // Ajouter les écouteurs d'événements
-  selector.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const theme = btn.dataset.theme;
-      
-      // Retirer la classe active de tous les boutons
-      selector.querySelectorAll('.theme-btn').forEach(b => b.classList.remove('active'));
-      
-      // Ajouter la classe active au bouton cliqué
-      btn.classList.add('active');
-      
-      // Appliquer le thème
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem('nova_theme', theme);
-      
-      // Animation de transition
-      document.body.style.opacity = '0.8';
-      setTimeout(() => {
-        document.body.style.opacity = '1';
-      }, 200);
-      
-      showToast(`Thème "${btn.title}" appliqué`);
-    });
-  });
-  
-  // Animation d'entrée
-  selector.style.opacity = '0';
-  selector.style.transform = 'translateX(20px)';
-  setTimeout(() => {
-    selector.style.transition = 'all 0.5s ease';
-    selector.style.opacity = '1';
-    selector.style.transform = 'translateX(0)';
-  }, 100);
 }
 
 // Envoi de commande vers WhatsApp
