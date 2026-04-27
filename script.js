@@ -25,11 +25,11 @@ function showToast(message, type = 'success') {
 function saveProducts() { localStorage.setItem(STORAGE.products, JSON.stringify(products)); }
 function loadProducts() {
   // Toujours utiliser la liste fraîche de produits pour voir les changements immédiatement
-  // Commentez cette ligne si vous voulez persister les changements utilisateur
+  // Si vous voulez sauvegarder les changements utilisateur, décommentez les lignes ci-dessous
   // const stored = localStorage.getItem(STORAGE.products);
-  // if (stored) { products = JSON.parse(stored); }
-  // else {
-    products = [
+  // if (stored) { products = JSON.parse(stored); return; }
+  
+  products = [
       {
         id: 1,
         name: "Huile d'Argan Bio Premium",
@@ -381,9 +381,7 @@ function loadProducts() {
         badge: "Tradition"
       }
     ];
-    // saveProducts(); // Commenté pour éviter d'écraser les changements
-  }
-  // Si vous décommentez les lignes ci-dessus, les produits seront sauvegardés dans localStorage
+  // saveProducts(); // Commenté pour éviter d'écraser les changements automatiquement
 }
 
 // Panier
