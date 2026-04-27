@@ -31,7 +31,7 @@ function loadProducts() {
       {
         id: 1,
         name: "Huile d'Argan Bio Premium",
-        price: 189,
+        price: 1890.0,
         description: "Huile d'argan pure 100% bio, antirides et hydratante",
         longDescription: "Huile d'argan vierge certifiée bio, produite artisanalement au Maroc. Riche en vitamine E et acides gras essentiels, elle nourrit, régénère et protège la peau. Idéale pour le visage, corps et cheveux. Emballage luxueux avec certificat d'authenticité.",
         category: "BEAUTÉ & COSMÉTIQUES",
@@ -45,7 +45,7 @@ function loadProducts() {
       {
         id: 2,
         name: "Support Téléphone Voiture Magnétique",
-        price: 79,
+        price: 790.0,
         description: "Support magnétique 360° pour tableau de bord et grille d'aération",
         longDescription: "Support téléphone magnétique ultra puissant avec fixation 3-en-1. Compatible avec tous les smartphones. Rotation complète 360°, installation facile sans outils. Aimants néodyme ultra-forts, maintient parfait même sur routes accidentées.",
         category: "ACCESSOIRES VOITURE",
@@ -59,11 +59,11 @@ function loadProducts() {
       {
         id: 3,
         name: "Pantalon Streetwear Cargo",
-        price: 289,
+        price: 289.0,
         description: "Pantalon cargo moderne avec poches tactiques et coupe ajustée",
         longDescription: "Pantalon streetwear tendance avec coupe slim fit et poches cargo multifonctions. Tissu coton stretch respirant, parfait pour le quotidien et sorties urbaines. Fermetures éclair renforcées, détails militaires modernes. Disponible en plusieurs couleurs.",
         category: "MODE HOMME",
-        images: ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400", "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400"],
+        images: ["https://images.unsplash.com/photo-1541099649105-f6e7ad7d3136?w=400", "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400"],
         videoUrl: "https://www.youtube.com/embed/ghi789",
         stock: 67,
         rating: 4.7,
@@ -73,7 +73,7 @@ function loadProducts() {
       {
         id: 4,
         name: "Rasoir Électrique Barbe Pro",
-        price: 349,
+        price: 3490.0,
         description: "Rasoir électrique sans fil avec lame en acier inoxydable",
         longDescription: "Rasoir électrique professionnel avec technologie de coupe flottante. Batterie lithium-ion 90min d'autonomie, étanche IPX7. Lames auto-aiguisantes en acier japonais, parfait pour barbe et contours. Charge rapide USB-C, voyage inclus.",
         category: "BEAUTÉ & COSMÉTIQUES",
@@ -87,7 +87,7 @@ function loadProducts() {
       {
         id: 5,
         name: "Coussin Orthopédique Mémoire",
-        price: 259,
+        price: 2590.0,
         description: "Coussin cervical en mousse à mémoire de forme, anti-douleur",
         longDescription: "Coussin orthopédique ergonomique avec mousse viscoélastique haute densité. Soulage les douleurs cervicales et lombaires. Design anatomique, housse amovible lavable. Idéal pour bureau, voiture et lit. Garantie 5 ans.",
         category: "MAISON & CUISINE",
@@ -101,7 +101,7 @@ function loadProducts() {
       {
         id: 6,
         name: "Trancheuse Légumes 3-en-1",
-        price: 159,
+        price: 1590.0,
         description: "Trancheuse électrique multifonction avec 3 lames interchangeables",
         longDescription: "Trancheuse électrique professionnelle avec 3 lames inox (julienne, émince, râpe). Moteur puissant 200W, sécurité enfant. Parfait pour légumes, fromages, fruits. Nettoyage facile au lave-vaisselle. Livré avec livre de recettes.",
         category: "MAISON & CUISINE",
@@ -115,7 +115,7 @@ function loadProducts() {
       {
         id: 7,
         name: "Fer à Repasser Portable",
-        price: 199,
+        price: 1990.0,
         description: "Mini fer à repasser sans fil, parfait pour voyage",
         longDescription: "Fer à repasser compact 2-en-1 avec fonction vapeur. Puissance 1200W, prête en 30 secondes. Semelle céramique anti-adhésive, réservoir d'eau 80ml. Idéal pour retouches rapides et voyages. Poignée ergonomique, rangement facile.",
         category: "MAISON & CUISINE",
@@ -129,7 +129,7 @@ function loadProducts() {
       {
         id: 8,
         name: "Gants Chauffants USB",
-        price: 129,
+        price: 1290.0,
         description: "Gants chauffants avec batterie intégrée, 3 niveaux de chaleur",
         longDescription: "Gants chauffants intelligents avec technologie carbon fiber. 3 niveaux de température (40/50/60°C), batterie 7.4V 2200mAh. Extensible, touch screen compatible. Parfait pour hiver, moto, travail extérieur. Charge rapide USB.",
         category: "ACCESSOIRES",
@@ -143,7 +143,7 @@ function loadProducts() {
       {
         id: 9,
         name: "Sac en Cuir Marocain Artisanal",
-        price: 450,
+        price: 450.0,
         description: "Sac main en cuir véritable avec motifs berbères traditionnels",
         longDescription: "Sac artisanal marocain en cuir pleine fleur, tanné naturellement. Motifs berbères brodés main, fermoir en métal argenté. Plusieurs compartiments, doublure soie. Pièce unique, certificat d'artisanat local. Fabriqué à Marrakech.",
         category: "MODE FEMME",
@@ -157,7 +157,7 @@ function loadProducts() {
       {
         id: 10,
         name: "Sneakers Tendance Urban",
-        price: 389,
+        price: 3990.0,
         description: "Baskets streetwear avec semelle épaisse et design moderne",
         longDescription: "Sneakers urban style avec plateforme chunky. Tissu mesh respirant et détails synthétiques. Semelle caoutchouc antidérapante, coutures renforcées. Confort toute la journée, style tendance TikTok. Disponible en 3 coloris.",
         category: "MODE HOMME",
@@ -171,7 +171,7 @@ function loadProducts() {
       {
         id: 11,
         name: "Sérum Vitamine C Éclat",
-        price: 145,
+        price: 145.0,
         description: "Sérum visage éclaircissant à la vitamine C et acide hyaluronique",
         longDescription: "Sérum concentré 20% vitamine C pure, acide hyaluronique et vitamine E. Antioxydant puissant, éclaircit le teint, réduit les taches brunes. Texture légère, absorption rapide. Fabriqué en France, testé dermatologiquement.",
         category: "BEAUTÉ & COSMÉTIQUES",
@@ -185,7 +185,7 @@ function loadProducts() {
       {
         id: 12,
         name: "Caméra de Surveillance WiFi",
-        price: 289,
+        price: 289.0,
         description: "Caméra intérieure 1080P avec vision nocturne et détection mouvement",
         longDescription: "Caméra surveillance intelligente WiFi 1080P Full HD. Vision nocturne 10m, détection mouvement IA, audio bidirectionnel. Stockage cloud et SD card. Compatible Alexa/Google Home. Installation facile 5min.",
         category: "GADGETS & ÉLECTRONIQUE",
@@ -199,7 +199,7 @@ function loadProducts() {
       {
         id: 13,
         name: "Robe Kaftan Marocaine Luxe",
-        price: 680,
+        price: 680.0,
         description: "Kaftan traditionnel en soie avec broderies dorées",
         longDescription: "Kaftan de luxe en soie pure avec broderies manuelles fils d'or. Design exclusif inspiré palais marocains. Coupe princesse, manches flottantes. Idéal pour mariages et soirées. Livré dans coffret cadeau.",
         category: "MODE FEMME",
@@ -213,7 +213,7 @@ function loadProducts() {
       {
         id: 14,
         name: "Enceinte Bluetooth Waterproof",
-        price: 179,
+        price: 1790.0,
         description: "Enceinte portable étanche IPX7 avec basses puissantes",
         longDescription: "Enceinte Bluetooth 5.0 étanche IPX7. Son 360° avec basses profondes, 20W puissance. Autonomie 12h, charge rapide USB-C. Design compact avec sangle. Parfait plage, randonnée, douche.",
         category: "GADGETS & ÉLECTRONIQUE",
@@ -227,7 +227,7 @@ function loadProducts() {
       {
         id: 15,
         name: "Organisateur Maquillage Luxe",
-        price: 225,
+        price: 225.0,
         description: "Boîte rangement maquillage avec miroir LED et tiroirs",
         longDescription: "Organisateur maquillage professionnel avec 8 tiroirs et miroir LED. MDF laqué blanc, poignées chromées. Compartiments ajustables, serrure de sécurité. Miroir avec éclairage 3 niveaux. Parfait coiffeuse et dressing.",
         category: "BEAUTÉ & COSMÉTIQUES",
@@ -241,7 +241,7 @@ function loadProducts() {
       {
         id: 16,
         name: "Chargeur Voiture Rapide 2 Ports",
-        price: 89,
+        price: 990.0,
         description: "Chargeur USB rapide 2 ports avec écran LED et protection",
         longDescription: "Chargeur voiture 2 ports USB-C 36W PD + USB-A 18W. Écran LED affichage tension/courant. Protection surcharge, court-circuit. Compatible tous appareils. Design aluminium, compact.",
         category: "ACCESSOIRES VOITURE",
@@ -255,7 +255,7 @@ function loadProducts() {
       {
         id: 17,
         name: "Montre Connectée Sport Pro",
-        price: 499,
+        price: 4990,
         description: "Smartwatch avec cardio, GPS et 7 jours d'autonomie",
         longDescription: "Montre sportive avec GPS intégré, fréquence cardiaque 24/7. 7 jours autonomie, 50 sports tracking. Écran AMOLED 1.4\", étanche 5ATM. Notifications smartphone, musique. Design élégant bracelet silicone.",
         category: "GADGETS & ÉLECTRONIQUE",
@@ -283,7 +283,7 @@ function loadProducts() {
       {
         id: 19,
         name: "Blouson Streetwear Oversize",
-        price: 420,
+        price: 4200,
         description: "Blouson moderne coupe oversize avec capuche et poches kangourou",
         longDescription: "Blouson streetwear tendance coupe oversize unisexe. Tissu coton polaire douce intérieure, capuche ajustable. Poches kangourou et manches raglan. Finitions qualité, logo discret. Parfait automne/hiver urbain.",
         category: "MODE HOMME",
@@ -325,7 +325,7 @@ function loadProducts() {
       {
         id: 22,
         name: "Power Bank 20000mAh Ultra",
-        price: 149,
+        price: 1490,
         description: "Batterie externe haute capacité avec charge rapide PD",
         longDescription: "Power bank 20000mAh avec charge rapide PD 65W et QC 4.0. 2 ports USB-C + 2 USB-A. Écran LED affichage niveau. Compatible laptops, phones, tablets. Charge complète en 1.5h. Garantie 2 ans.",
         category: "GADGETS & ÉLECTRONIQUE",
@@ -524,17 +524,17 @@ window.loadShopPage = function() {
   const categoryParam = urlParams.get('category') || '';
   const searchParam = urlParams.get('search') || '';
   let filtered = [...products];
-  let searchTerm = searchParam.toLowerCase(), priceMax = 2000, sort = 'default';
+  let searchTerm = searchParam.toLowerCase(), priceMax = 20000, sort = 'default';
   const render = () => {
     let items = filtered.filter(p => (categoryParam === '' || p.category === categoryParam) && p.price <= priceMax && (p.name.toLowerCase().includes(searchTerm) || p.description.toLowerCase().includes(searchTerm) || p.category.toLowerCase().includes(searchTerm)));
     if (sort === 'low-high') items.sort((a,b)=>a.price-b.price);
     if (sort === 'high-low') items.sort((a,b)=>b.price-a.price);
-    document.getElementById('productGrid').innerHTML = items.map((p, index) => `<div class="product-card bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg rounded-2xl p-4 shadow-lg" style="animation-delay: ${index * 0.1}s"><img src="${p.images[0]}" class="h-48 w-full object-cover rounded-xl"><h3 class="font-bold mt-2 text-lg">${p.name}</h3><p class="text-blue-600 dark:text-blue-400 font-semibold">$${p.price}</p><div class="flex gap-2 mt-2"><button onclick="addToCart(${p.id},1)" class="ripple-btn flex-1">🛒 Ajouter</button><button onclick="window.location.href='product.html?id=${p.id}'" class="border-2 border-gray-300 dark:border-gray-600 py-1 rounded-full flex-1 hover:bg-gray-100 dark:hover:bg-gray-700 transition">👁️ Détail</button></div></div>`).join('');
+    document.getElementById('productGrid').innerHTML = items.map((p, index) => `<div class="product-card bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg rounded-2xl p-4 shadow-lg" style="animation-delay: ${index * 0.1}s"><img src="${p.images[0]}" class="h-48 w-full object-cover rounded-xl"><h3 class="font-bold mt-2 text-lg">${p.name}</h3><p class="text-blue-600 dark:text-blue-400 font-semibold">${p.price} MAD</p><div class="flex gap-2 mt-2"><button onclick="addToCart(${p.id},1)" class="ripple-btn flex-1">🛒 Ajouter</button><button onclick="window.location.href='product.html?id=${p.id}'" class="border-2 border-gray-300 dark:border-gray-600 py-1 rounded-full flex-1 hover:bg-gray-100 dark:hover:bg-gray-700 transition">👁️ Détail</button></div></div>`).join('');
     document.getElementById('resultCount').innerText = `${items.length} produits trouvés${searchTerm ? ` pour "${searchTerm}"` : ''}${categoryParam ? ` dans ${categoryParam}` : ''}`;
   };
-  container.innerHTML = `<div class="max-w-7xl mx-auto px-4 fade-page"><div class="flex flex-col md:flex-row gap-6"><aside class="md:w-1/4"><div class="bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg p-4 rounded-2xl shadow-lg"><h3 class="font-bold mb-4">🔍 Filtres</h3><select id="catFilter" class="w-full p-2 border rounded-lg bg-white/50 dark:bg-gray-700/50 backdrop-blur"><option value="">Toutes catégories</option>${[...new Set(products.map(p=>p.category))].map(c=>`<option value="${c}" ${categoryParam === c ? 'selected' : ''}>${c}</option>`)}</select><div class="mt-4"><label class="block text-sm font-medium mb-2">Prix max: <span id="priceVal" class="text-blue-600 font-bold">2000$</span></label><input type="range" id="priceRange" min="0" max="2000" step="10" class="w-full"></div><input type="text" id="searchShop" placeholder="🔎 Rechercher un produit..." value="${searchParam}" class="w-full p-2 border rounded-lg mt-4 bg-white/50 dark:bg-gray-700/50 backdrop-blur"></div></aside><div class="md:w-3/4"><div class="flex justify-between items-center mb-4"><h2 class="text-2xl font-bold">Boutique</h2><select id="sortSelect" class="p-2 border rounded-lg bg-white/50 dark:bg-gray-700/50 backdrop-blur"><option value="default">Trier</option><option value="low-high">Prix croissant</option><option value="high-low">Prix décroissant</option></select></div><div id="resultCount" class="mb-4 text-gray-600 dark:text-gray-400"></div><div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div></div></div></div>`;
+  container.innerHTML = `<div class="max-w-7xl mx-auto px-4 fade-page"><div class="flex flex-col md:flex-row gap-6"><aside class="md:w-1/4"><div class="bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg p-4 rounded-2xl shadow-lg"><h3 class="font-bold mb-4">🔍 Filtres</h3><select id="catFilter" class="w-full p-2 border rounded-lg bg-white/50 dark:bg-gray-700/50 backdrop-blur"><option value="">Toutes catégories</option>${[...new Set(products.map(p=>p.category))].map(c=>`<option value="${c}" ${categoryParam === c ? 'selected' : ''}>${c}</option>`)}</select><div class="mt-4"><label class="block text-sm font-medium mb-2">Prix max: <span id="priceVal" class="text-blue-600 font-bold">20000 MAD</span></label><input type="range" id="priceRange" min="0" max="20000" step="100" class="w-full"></div><input type="text" id="searchShop" placeholder="🔎 Rechercher un produit..." value="${searchParam}" class="w-full p-2 border rounded-lg mt-4 bg-white/50 dark:bg-gray-700/50 backdrop-blur"></div></aside><div class="md:w-3/4"><div class="flex justify-between items-center mb-4"><h2 class="text-2xl font-bold">Boutique</h2><select id="sortSelect" class="p-2 border rounded-lg bg-white/50 dark:bg-gray-700/50 backdrop-blur"><option value="default">Trier</option><option value="low-high">Prix croissant</option><option value="high-low">Prix décroissant</option></select></div><div id="resultCount" class="mb-4 text-gray-600 dark:text-gray-400"></div><div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div></div></div></div>`;
   document.getElementById('catFilter').addEventListener('change', e => { categoryParam = e.target.value; render(); });
-  document.getElementById('priceRange').addEventListener('input', e => { priceMax = parseInt(e.target.value); document.getElementById('priceVal').innerText = `${priceMax}$`; render(); });
+  document.getElementById('priceRange').addEventListener('input', e => { priceMax = parseInt(e.target.value); document.getElementById('priceVal').innerText = `${priceMax} MAD`; render(); });
   document.getElementById('searchShop').addEventListener('input', e => { searchTerm = e.target.value; render(); });
   document.getElementById('sortSelect').addEventListener('change', e => { sort = e.target.value; render(); });
   render();
@@ -569,10 +569,10 @@ window.renderCartPage = function() {
     return; 
   }
   let total = cart.reduce((s,i)=>s+(i.price*i.quantity),0);
-  container.innerHTML = `<div class="max-w-7xl mx-auto px-4 fade-page"><div class="flex flex-col lg:flex-row gap-8"><div class="flex-1 space-y-4" id="cartItemsList"></div><div class="lg:w-80"><div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-6 rounded-2xl shadow-lg sticky top-24"><h2 class="text-2xl font-bold mb-4">🧾 Récapitulatif</h2><div class="space-y-2 mb-4">${cart.map(i=>`<div class="flex justify-between text-sm"><span>${i.name} x${i.quantity}</span><span class="font-semibold">$${(i.price*i.quantity).toFixed(2)}</span></div>`).join('')}</div><div class="border-t pt-4"><div class="flex justify-between text-xl font-bold">Total: <span class="text-blue-600">$${total.toFixed(2)}</span></div></div><button id="checkoutBtn" class="w-full mt-6 ripple-btn btn-shine py-3 text-lg">🚀 Commander</button><button onclick="window.location.href='shop.html'" class="w-full mt-2 border-2 border-gray-300 dark:border-gray-600 py-2 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition">🛍️ Continuer mes achats</button></div></div></div></div>`;
+  container.innerHTML = `<div class="max-w-7xl mx-auto px-4 fade-page"><div class="flex flex-col lg:flex-row gap-8"><div class="flex-1 space-y-4" id="cartItemsList"></div><div class="lg:w-80"><div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-6 rounded-2xl shadow-lg sticky top-24"><h2 class="text-2xl font-bold mb-4">🧾 Récapitulatif</h2><div class="space-y-2 mb-4">${cart.map(i=>`<div class="flex justify-between text-sm"><span>${i.name} x${i.quantity}</span><span class="font-semibold">${(i.price*i.quantity).toFixed(2)} MAD</span></div>`).join('')}</div><div class="border-t pt-4"><div class="flex justify-between text-xl font-bold">Total: <span class="text-blue-600">${total.toFixed(2)} MAD</span></div></div><button id="checkoutBtn" class="w-full mt-6 ripple-btn btn-shine py-3 text-lg">🚀 Commander</button><button onclick="window.location.href='shop.html'" class="w-full mt-2 border-2 border-gray-300 dark:border-gray-600 py-2 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition">🛍️ Continuer mes achats</button></div></div></div></div>`;
   const listDiv = document.getElementById('cartItemsList');
   const renderList = () => { 
-    listDiv.innerHTML = cart.map((i, index) => `<div class="cart-item bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-4 rounded-2xl shadow-lg" style="animation-delay: ${index * 0.1}s"><div class="flex gap-4"><img src="${i.image}" class="w-24 h-24 object-cover rounded-xl"><div class="flex-1"><h3 class="font-bold text-lg">${i.name}</h3><p class="text-blue-600 font-semibold">$${i.price}</p><div class="flex items-center gap-3 mt-3"><button class="qtyDec w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition" data-id="${i.id}">−</button><span class="font-bold text-lg w-8 text-center">${i.quantity}</span><button class="qtyInc w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition" data-id="${i.id}">+</button><button class="remove text-red-500 hover:text-red-700 transition ml-4" data-id="${i.id}">🗑️ Supprimer</button></div></div></div></div>`).join('');
+    listDiv.innerHTML = cart.map((i, index) => `<div class="cart-item bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-4 rounded-2xl shadow-lg" style="animation-delay: ${index * 0.1}s"><div class="flex gap-4"><img src="${i.image}" class="w-24 h-24 object-cover rounded-xl"><div class="flex-1"><h3 class="font-bold text-lg">${i.name}</h3><p class="text-blue-600 font-semibold">${i.price} MAD</p><div class="flex items-center gap-3 mt-3"><button class="qtyDec w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition" data-id="${i.id}">−</button><span class="font-bold text-lg w-8 text-center">${i.quantity}</span><button class="qtyInc w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition" data-id="${i.id}">+</button><button class="remove text-red-500 hover:text-red-700 transition ml-4" data-id="${i.id}">🗑️ Supprimer</button></div></div></div></div>`).join('');
     document.querySelectorAll('.qtyInc').forEach(btn => btn.addEventListener('click',()=>{ let id=parseInt(btn.dataset.id); let item=cart.find(i=>i.id===id); if(item) updateQuantity(id, item.quantity+1); }));
     document.querySelectorAll('.qtyDec').forEach(btn => btn.addEventListener('click',()=>{ let id=parseInt(btn.dataset.id); let item=cart.find(i=>i.id===id); if(item && item.quantity>1) updateQuantity(id, item.quantity-1); else if(item) updateQuantity(id,0); }));
     document.querySelectorAll('.remove').forEach(btn => btn.addEventListener('click',()=>{ removeFromCart(parseInt(btn.dataset.id)); }));
@@ -755,7 +755,7 @@ function exportData() {
 window.loadCheckout = function() {
   const container = document.getElementById('checkoutContainer');
   const total = cart.reduce((s,i)=>s+(i.price*i.quantity),0);
-  container.innerHTML = `<div class="max-w-7xl mx-auto px-4 fade-page"><div class="grid md:grid-cols-2 gap-8"><div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-8 rounded-2xl shadow-lg"><h2 class="text-2xl font-bold mb-6">📦 Informations de livraison</h2><form id="orderForm" class="space-y-4"><div><label class="block text-sm font-medium mb-2">👤 Nom complet</label><input required id="fullName" class="w-full p-3 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:border-blue-500 transition"></div><div><label class="block text-sm font-medium mb-2">📞 Téléphone</label><input required id="phone" type="tel" class="w-full p-3 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:border-blue-500 transition"></div><div><label class="block text-sm font-medium mb-2">🏠 Adresse de livraison</label><input required id="address" class="w-full p-3 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:border-blue-500 transition"></div><button type="submit" class="w-full ripple-btn btn-shine py-4 text-lg font-semibold">✅ Confirmer ma commande</button></form></div><div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-8 rounded-2xl shadow-lg"><h2 class="text-2xl font-bold mb-6">🧾 Récapitulatif de commande</h2><div class="space-y-3 mb-6">${cart.map(i=>`<div class="flex justify-between items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-xl"><div><span class="font-semibold">${i.name}</span><span class="text-gray-600 dark:text-gray-400 ml-2">x${i.quantity}</span></div><span class="font-bold text-blue-600">$${(i.price*i.quantity).toFixed(2)}</span></div>`).join('')}</div><div class="border-t pt-4"><div class="flex justify-between text-xl font-bold">Total: <span class="text-blue-600">$${total.toFixed(2)}</span></div></div><div class="mt-6 p-4 bg-green-50 dark:bg-green-900/20 rounded-xl"><div class="flex items-center gap-2 text-green-700 dark:text-green-400"><span class="text-xl">🚚</span><span class="font-semibold">Livraison gratuite</span></div></div></div></div></div>`;
+  container.innerHTML = `<div class="max-w-7xl mx-auto px-4 fade-page"><div class="grid md:grid-cols-2 gap-8"><div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-8 rounded-2xl shadow-lg"><h2 class="text-2xl font-bold mb-6">📦 Informations de livraison</h2><form id="orderForm" class="space-y-4"><div><label class="block text-sm font-medium mb-2">👤 Nom complet</label><input required id="fullName" class="w-full p-3 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:border-blue-500 transition"></div><div><label class="block text-sm font-medium mb-2">📞 Téléphone</label><input required id="phone" type="tel" class="w-full p-3 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:border-blue-500 transition"></div><div><label class="block text-sm font-medium mb-2">🏠 Adresse de livraison</label><input required id="address" class="w-full p-3 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:border-blue-500 transition"></div><button type="submit" class="w-full ripple-btn btn-shine py-4 text-lg font-semibold">✅ Confirmer ma commande</button></form></div><div class="bg-white/90 dark:bg-gray-800/90 backdrop-blur-lg p-8 rounded-2xl shadow-lg"><h2 class="text-2xl font-bold mb-6">🧾 Récapitulatif de commande</h2><div class="space-y-3 mb-6">${cart.map(i=>`<div class="flex justify-between items-center p-3 bg-gray-50 dark:bg-gray-700/50 rounded-xl"><div><span class="font-semibold">${i.name}</span><span class="text-gray-600 dark:text-gray-400 ml-2">x${i.quantity}</span></div><span class="font-bold text-blue-600">${(i.price*i.quantity).toFixed(2)} MAD</span></div>`).join('')}</div><div class="border-t pt-4"><div class="flex justify-between text-xl font-bold">Total: <span class="text-blue-600">${total.toFixed(2)} MAD</span></div></div><div class="mt-6 p-4 bg-green-50 dark:bg-green-900/20 rounded-xl"><div class="flex items-center gap-2 text-green-700 dark:text-green-400"><span class="text-xl">🚚</span><span class="font-semibold">Livraison gratuite</span></div></div></div></div></div>`;
   document.getElementById('orderForm').addEventListener('submit', (e) => {
     e.preventDefault();
     if(cart.length===0) { showToast('🛒 Votre panier est vide','error'); return; }
