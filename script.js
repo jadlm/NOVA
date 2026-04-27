@@ -24,9 +24,11 @@ function showToast(message, type = 'success') {
 // Gestion des produits
 function saveProducts() { localStorage.setItem(STORAGE.products, JSON.stringify(products)); }
 function loadProducts() {
-  const stored = localStorage.getItem(STORAGE.products);
-  if (stored) { products = JSON.parse(stored); }
-  else {
+  // Toujours utiliser la liste fraîche de produits pour voir les changements immédiatement
+  // Commentez cette ligne si vous voulez persister les changements utilisateur
+  // const stored = localStorage.getItem(STORAGE.products);
+  // if (stored) { products = JSON.parse(stored); }
+  // else {
     products = [
       {
         id: 1,
@@ -379,8 +381,9 @@ function loadProducts() {
         badge: "Tradition"
       }
     ];
-    saveProducts();
+    // saveProducts(); // Commenté pour éviter d'écraser les changements
   }
+  // Si vous décommentez les lignes ci-dessus, les produits seront sauvegardés dans localStorage
 }
 
 // Panier
